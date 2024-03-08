@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-57
+67
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
   exec_task: word_recognizer 
@@ -17,4 +17,204 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202402231637211612.pdf --> para 202402231637211612.pdf:Page_idx: 1 2 <-> [(0, 2), (0, 3), (1, 3)]
-#docs: 57 #processed: 2
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+NotFound sakalmarathi 212
+NotFound sakalmarathi 212
+NotFound sakalmarathi 212
+  exec_task: word_recognizer 
+	Replaced 0:29 >मु(sakalmarathi-cid:212)य<  >जक<
+  exec_task: pdftable_finder 
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071525064412.pdf: >शासन निर्णय क्रमांक< >अस्थायी ०२२४/प्र.क्र.५९/कार्यासन ११<
+	elapsed_time:202403071525064412.pdf: 0.000108
+  exec_task: doc_translator_hf 
+    Paras: #40 Sentences: #44
+	[0]  #words: 29 #sentences: 17
+	After generate: 2 MB
+	[0]  #words: 259 #sentences: 45
+	After generate: 3 MB
+	[1]  #words: 119 #sentences: 9
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071532422212.pdf missing_cmaps: nirmalauibold
+  exec_task: word_recognizer 
+	Replaced 1:157 >(nirmalauibold-cid:366)(nirmalauibold-cid:263)<  >प्रत<
+  exec_task: pdftable_finder 
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071532422212.pdf: >शासन निर्णय क्रमांक< >अस्थायी ०२२४/प्र.क्र.६८/कार्यासन ११.<
+	elapsed_time:202403071532422212.pdf: 0.000116
+  exec_task: doc_translator_hf 
+    Paras: #35 Sentences: #68
+	[0]  #words: 44 #sentences: 25
+	After generate: 3 MB
+	[0]  #words: 268 #sentences: 45
+	After generate: 3 MB
+	[1]  #words: 39 #sentences: 2
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071536020912.pdf missing_cmaps: nirmalauibold
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:21 Errors=21 TableEmptyBodyCellError=21
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071536020912.pdf: >शासन निर्णय क्रमांक< >अस्थायी-२०२४/प्र.क्र. ५०/का.१२<
+	elapsed_time:202403071536020912.pdf: 0.000083
+  exec_task: doc_translator_hf 
+    Paras: #30 Sentences: #75
+	[0]  #words: 54 #sentences: 27
+	After generate: 3 MB
+	[0]  #words: 264 #sentences: 33
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071539133812.pdf missing_cmaps: nirmalauibold
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071539133812.pdf: >शासन निर्णय क्रमांक< >अस्थायी-२०२४/प्र.क्र.५३/का.१२<
+	elapsed_time:202403071539133812.pdf: 0.000081
+  exec_task: doc_translator_hf 
+    Paras: #30 Sentences: #67
+	[0]  #words: 40 #sentences: 19
+	After generate: 3 MB
+	[0]  #words: 269 #sentences: 32
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071542186412.pdf missing_cmaps: nirmalauibold
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071542186412.pdf: >शासन निर्णय क्रमांक< >अस्थायी-२०२४/प्र.क्र.४९/कार्या-१२<
+	elapsed_time:202403071542186412.pdf: 0.000074
+  exec_task: doc_translator_hf 
+    Paras: #31 Sentences: #51
+	[0]  #words: 33 #sentences: 15
+	After generate: 3 MB
+	[0]  #words: 258 #sentences: 33
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071544550712.pdf missing_cmaps: nirmalauibold
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071544550712.pdf: >शासन निर्णय क्रमांक< >अस्थायी-२०२४/प्र.क्र.५२/कार्या-१२<
+	elapsed_time:202403071544550712.pdf: 0.000108
+  exec_task: doc_translator_hf 
+    Paras: #31 Sentences: #83
+	[0]  #words: 50 #sentences: 23
+	After generate: 3 MB
+	[0]  #words: 263 #sentences: 34
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071635329212.pdf missing_cmaps: nirmalauibold, dvotsurekhmr, dvotsurekhmrbold
+  exec_task: word_recognizer 
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+	Tesseract on page: 5
+	Tesseract on page: 6
+	Tesseract on page: 7
+	Tesseract on page: 8
+  exec_task: pdftable_finder 
+	==Total:340 Errors=340 TableEmptyBodyCellError=340
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	**FirstPage: 6: कौटुंन्या ११२३/प्र.क्र.१७/का-९ ==शासन निर्णय क्रमांक : कौटुंन्या ११२३/प्र.क्र.१७/का-९
+	extract_order_number:202403071635329212.pdf: >शासन निर्णय क्रमांक< >कौटुंन्या ११२३/प्र.क्र.१७/का-९<
+	elapsed_time:202403071635329212.pdf: 0.000803
+  exec_task: doc_translator_hf 
+    Paras: #23 Sentences: #3
+	[0]  #words: 40 #sentences: 3
+	After generate: 3 MB
+	[0]  #words: 235 #sentences: 34
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071639489312.pdf missing_cmaps: nirmalauibold, dvotsurekhmr, dvotsurekhmrbold
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071639489312.pdf: >शासन निर्णय क्रमांक< >विशेन्या १३२३/प्र.क्र.२०/का-नऊ<
+	elapsed_time:202403071639489312.pdf: 0.000078
+  exec_task: doc_translator_hf 
+    Paras: #30 Sentences: #20
+	[0]  #words: 15 #sentences: 9
+	After generate: 3 MB
+	[0]  #words: 268 #sentences: 41
+	After generate: 3 MB
+	[1]  #words: 15 #sentences: 1
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071643420612.pdf missing_cmaps: nirmalauibold, dvotsurekhmr, dvotsurekhmrbold
+  exec_task: word_recognizer 
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+	==Total:34 Errors=34 TableEmptyBodyCellError=34
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071643420612.pdf: >शासन निर्णय क्रमांक< >विशेन्या १३२३/प्र.क्र.२१/का-९<
+	elapsed_time:202403071643420612.pdf: 0.000103
+  exec_task: doc_translator_hf 
+    Paras: #32 Sentences: #0
+	[0]  #words: 265 #sentences: 40
+	After generate: 3 MB
+	[1]  #words: 78 #sentences: 4
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071649321612.pdf missing_cmaps: nirmalauibold, dvotsurekhmr, dvotsurekhmrbold
+  exec_task: word_recognizer 
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071649321612.pdf: >शासन निर्णय क्रमांक< >शेरिफ १६२३/प्र.क्र.२५/का.९<
+	elapsed_time:202403071649321612.pdf: 0.000104
+  exec_task: doc_translator_hf 
+    Paras: #29 Sentences: #0
+	[0]  #words: 269 #sentences: 45
+	After generate: 3 MB
+	[1]  #words: 17 #sentences: 1
+	After generate: 3 MB
+  exec_task: text_writer 
+#docs: 67 #processed: 12
