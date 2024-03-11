@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-67
+68
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
   exec_task: word_recognizer 
@@ -17,4 +17,34 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202402231637211612.pdf --> para 202402231637211612.pdf:Page_idx: 1 2 <-> [(0, 2), (0, 3), (1, 3)]
-#docs: 67 #processed: 2
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403111612483912.pdf missing_cmaps: mangal, mangalbold, dvotsurekhmrbold
+  exec_task: word_recognizer 
+	Replaced 0:26 >(dvotsurekhmrbold-cid:16)<  >-<
+	Replaced 0:45 >(dvotsurekhmrbold-cid:119)(dvotsurekhmrbold-cid:66)(dvotsurekhmrbold-cid:101)(dvotsurekhmrbold-cid:108)(dvotsurekhmrbold-cid:171)<  >aaa<
+	Replaced 5:84 >(mangal-cid:72)J००२२(mangal-cid:71)(mangal-cid:73)(mangal-cid:66)(mangal-cid:66)(mangal-cid:66)(mangal-cid:66)<  >द | JUN } ~ re “१ | ५४9००००<
+	Tesseract on page: 8
+  exec_task: pdftable_finder 
+	==Total:118 Errors=118 TableEmptyBodyCellError=118
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403111612483912.pdf: >शासन निर्णय क्रमांक< >घबांअ १२२३/प्र.क्र.०२/का.०५<
+	elapsed_time:202403111612483912.pdf: 0.000117
+  exec_task: doc_translator_hf 
+    Paras: #139 Sentences: #0
+	[0]  #words: 262 #sentences: 65
+	After generate: 3 MB
+	[1]  #words: 257 #sentences: 32
+	After generate: 3 MB
+	[2]  #words: 267 #sentences: 24
+	After generate: 3 MB
+	[3]  #words: 258 #sentences: 23
+	After generate: 3 MB
+	[4]  #words: 266 #sentences: 22
+	After generate: 3 MB
+	[5]  #words: 158 #sentences: 13
+	After generate: 3 MB
+  exec_task: text_writer 
+#docs: 68 #processed: 3
