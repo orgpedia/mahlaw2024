@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-95
+98
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
   exec_task: word_recognizer 
@@ -31,43 +31,75 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202403151704210912.pdf --> para 202403151704210912.pdf:Page_idx: 0 3 <-> [(0, 15)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403191103126012.pdf missing_cmaps: sakalmarathinormal
+	202403201315106812.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+	Tesseract on page: 5
+  exec_task: pdftable_finder 
+	==Total:3 Errors=3 TableEmptyBodyCellError=3
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403201315106812.pdf: >शासन निर्णय क्रमांक< >संकीर्ण-२०२४/५४/प्र.क्र.५३/का-२२<
+	elapsed_time:202403201315106812.pdf: 0.000089
+  exec_task: doc_translator_hf 
+    Paras: #134 Sentences: #12
+	[0]  #words: 23 #sentences: 12
+	After generate: 2 MB
+	[0]  #words: 261 #sentences: 79
+	After generate: 15 MB
+	[1]  #words: 263 #sentences: 36
+	After generate: 15 MB
+	[2]  #words: 266 #sentences: 27
+	After generate: 15 MB
+	[3]  #words: 264 #sentences: 24
+	After generate: 15 MB
+	[4]  #words: 227 #sentences: 16
+	After generate: 15 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403201610574712.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403201610574712.pdf: >शासन ज्ञापन क्रमांक< >इएसटी २०२४/प्र.क्र.४४/का.२<
+	elapsed_time:202403201610574712.pdf: 0.000079
+  exec_task: doc_translator_hf 
+    Paras: #81 Sentences: #20
+	[0]  #words: 48 #sentences: 13
+	After generate: 15 MB
+	[0]  #words: 257 #sentences: 55
+	After generate: 15 MB
+	[1]  #words: 260 #sentences: 25
+	After generate: 15 MB
+	[2]  #words: 282 #sentences: 21
+	After generate: 15 MB
+	[3]  #words: 22 #sentences: 1
+	After generate: 15 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403201645349412.pdf missing_cmaps: sakalmarathinormal
   exec_task: word_recognizer 
   exec_task: pdftable_finder 
 	==Total:0 Errors=0 
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	extract_order_number:202403191103126012.pdf: >शासन निर्णय क्रमांक< >संकीर्ण-२०२३/प्र.क्र.८४/कार्या. ७<
-	elapsed_time:202403191103126012.pdf: 0.000080
+	**FirstPage: 9: संकीर्ण-०३१७/प्र.क्र.७७-अ/कार्यासन ११ ==शासन निर्णय क्रमांक : संकीर्ण-०३१७/प्र.क्र.७७-अ /कार्यासन ११
+	extract_order_number:202403201645349412.pdf: >शासन निर्णय क्रमांक< >संकीर्ण-०३१७/प्र.क्र.७७-अ/कार्यासन ११<
+	elapsed_time:202403201645349412.pdf: 0.000835
   exec_task: doc_translator_hf 
-    Paras: #36 Sentences: #0
-	[0]  #words: 259 #sentences: 45
-	After generate: 3 MB
-	[1]  #words: 22 #sentences: 2
-	After generate: 3 MB
+    Paras: #26 Sentences: #0
+	[0]  #words: 207 #sentences: 35
+	After generate: 15 MB
   exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403191526567112.pdf missing_cmaps: sakalmarathinormal
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-	Tesseract on page: 2
-  exec_task: pdftable_finder 
-	==Total:3 Errors=3 TableEmptyBodyCellError=3
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403191526567112.pdf: >शासन निर्णय क्रमांक< >मप्रवि-१३२३/१७३/(प्र.क्र.२१४/२३)/का-१७<
-	elapsed_time:202403191526567112.pdf: 0.000108
-  exec_task: doc_translator_hf 
-    Paras: #37 Sentences: #7
-	[0]  #words: 23 #sentences: 7
-	After generate: 3 MB
-	[0]  #words: 258 #sentences: 39
-	After generate: 3 MB
-	[1]  #words: 60 #sentences: 5
-	After generate: 3 MB
-  exec_task: text_writer 
-#docs: 95 #processed: 5
+#docs: 98 #processed: 6
